@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
       title: 'V C O Y',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           backgroundColor: Pallete.whiteColor,
         ),
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
